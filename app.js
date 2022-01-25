@@ -20,6 +20,7 @@ function copyQuote() {
   let copyWhole =  quoteText + ' – ' + authorText;
   console.log("copyWhole");
   copyText(copyWhole);
+  alert('Copied!' + '\n' + '\n' + copyWhole);
 }
 function copyText(text) {
   navigator.clipboard.writeText(text);

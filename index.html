@@ -4,17 +4,19 @@
     <meta charset="utf-8">
     <title>Quote Generator</title>
     <script src="app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <h1>Quote Generator</h1>
     <div class="q-content">
-      <div class="q"></div>
+      <div class="q"><img src="quote.png" width="30px"></div>
       <div class="q-body">
         <div id="q-text">“Be yourself; everyone else is already taken.”</div>
         <div id="q-author">Oscar Wilde</div>
       </div>
       <div class="buttons">
-        <button id="" onclick="copyQuote()">copy</button>
-        <button id="" onclick="splitQuoteAndAuthorThenShow();">random</button>
+        <button id="copy-button" onclick="copyQuote()">copy</button>
+        <button id="random-button" onclick="splitQuoteAndAuthorThenShow();">random</button>
       </div>
     </div>
   </body>
